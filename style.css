@@ -1,0 +1,39 @@
+h2{
+    color:rgb(234, 234, 229);
+}
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to
+    right,green,yellow);
+}
+.register{
+    width:350px;
+    margin: auto;
+    position: relative;
+    box-shadow: -3px 10px 55px -4px;
+    top:100px;
+}
+.register img{
+    top: -50px;
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left: calc(50% - 50px);
+     border-radius: 50%;
+}
+.register form{
+    margin: 0;
+    padding: 100px 0px 0px 10px;
+}
+.register input[type="text"],
+.register input[type="email"],
+.register input[type="password"]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
